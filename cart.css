@@ -1,0 +1,282 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carrinho-container {
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  .detalhes-produto .label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .carrinho-container h2{
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .imagem-produto {
+    
+    width: 250px;
+    height: 250px;
+    background-color: #ddd;
+    margin-right: 20px;
+    background-image: url(kit-yoga.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .detalhes-produto {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 10px;
+    margin-right: 40px;
+  }
+   .nome-prod{
+    margin-left: 10px;
+  }
+  
+  
+  .preco {
+    font-size: 18px;
+    font-weight: bold;
+    color: #38a169;
+    margin-bottom: 10px;
+    
+    padding: 10px;
+  }
+  
+  
+  .quantidade {
+    width: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    margin-left: 20px;
+  }
+  
+  
+  .total-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+  }
+  
+  
+  #total {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000542;
+  }
+  
+  .botao-finalizar {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  .footer-meu {
+    margin-top: 10%;;
+    background-color: rgba(255, 182, 193, 0.148);;
+}
+
+.footer-meu h5 {
+    margin-top: 20px;
+}
+
+.footer-meu h5:hover {
+    cursor: pointer;
+}
+
+.redes-sociais {
+    height: 16px;
+    width: 16px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    #navbar-minha {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: end;
+
+
+    }
+
+    .navbar-minha a {
+        display: block;
+        color: #f2f2f2;
+
+    }
+
+    .navbar-minha ul li {
+        padding-top: 10px;
+
+    }
+
+    #pesquisa,
+    #lupa,
+    .carrinho,
+    .logo,
+    .perfil {
+        display: none;
+    }
+
+    .botao-lupa {
+        display: none;
+    }
+
+    header {
+        background-image: none;
+        height: 50px;
+
+    }
+
+    .secao1 {
+        margin-top: 20px;
+        padding-top: 0%;
+    }
+
+    .menu {
+        display: flex;
+    }
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.lista,
+.lista-logo {
+    padding-right: 50px;
+}
+
+.lista-logo {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo {
+    width: 70px;
+
+}
+
+.imagem-homepage {
+    position: relative;
+}
+
+.carrinho,
+.lupa,
+.perfil,
+.menu {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.menu {
+    display: none;
+}
+
+.lupa:hover,
+.carrinho:hover,
+.perfil:hover,
+.menu:hover {
+    cursor: pointer;
+}
+
+.navbar-minha {
+    background-color:rgba(255,182,193,0.148);
+    ;
+}
+
+.item-menu2 {
+    background-color: #071126;
+
+
+}
+
+.item-menu2 p {
+    color: #f2e7dc;
+    ;
+}
+
+.item-menu2:hover {
+    background-color:rgba(255, 182, 193, 0.148);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.item-menu2 a:hover {
+    color: #071126;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.p-menu2 {
+    margin: auto;
+    padding: 10px;
+}
+
+.pesquisa {
+    margin-right: 10px;
+    margin-left: 600px;
+    ;
+}
+
+p.numero-carrinho {
+    margin-left: 20px;
+}
+
+.ativo {
+    background-color: #088178;
+    height: 25px;
+    width: 30px;
+    border-radius: 40%;
+    color: #f2f2f2;
+    padding: 5px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+.navbar-minha li a {
+    color: #3a3a3a;
+}
+

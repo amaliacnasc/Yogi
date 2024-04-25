@@ -1,0 +1,335 @@
+h1, h2, h3, h4, h5, h6, p{
+    font-family: "Poppins";
+}
+
+.lista,
+.lista-logo {
+    padding-right: 50px;
+}
+
+.lista-logo {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo {
+    width: 70px;
+
+}
+
+.imagem-homepage {
+    position: relative;
+}
+
+.carrinho,
+.lupa,
+.perfil,
+.menu {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.menu {
+    display: none;
+}
+
+.lupa:hover,
+.carrinho:hover,
+.perfil:hover,
+.menu:hover {
+    cursor: pointer;
+}
+
+.navbar-minha {
+   background-color: rgba(255, 182, 193, 0.148);
+    
+}
+
+.item-menu2 {
+    background-color: #071126;
+
+
+}
+
+.item-menu2 p {
+    color: #f2e7dc;
+    ;
+}
+
+.item-menu2:hover {
+    background-color: rgba(255, 182, 193, 0.148);
+    
+    cursor: pointer;
+    transition: 0.5s;
+}
+.item-menu2 p:hover {
+    color: #071126;
+    ;
+}
+
+.p-menu2 {
+    margin: auto;
+    padding: 10px;
+}
+
+.pesquisa {
+    margin-right: 10px;
+    margin-left: 550px;
+    ;
+}
+
+p.numero-carrinho {
+    margin-left: 20px;
+}
+
+
+
+.navbar-minha li a {
+    color: #071126;
+}
+
+
+
+.imagem-carrossel {
+    width: 500px;
+    height: 500px;
+}
+
+.background-meu {
+    background-color: rgba(255, 182, 193, 0.148);
+}
+
+
+#prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.small-image-group {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.small-image-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 20px;
+}
+
+#prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details button {
+    background-color: #088178;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details span {
+    line-height: 25px;
+}
+
+.titulo-produtos-relacionados {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.item-produto-relacionado .imagem {
+    width: 200px;
+    height: 250px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.item-produto-relacionado {
+    background-color: #f2f2f2;
+    margin: auto;
+    border-radius: 8px;
+    width: 250px;
+    height: 400px;
+
+}
+.navbar-mobile{
+    display: none;
+}
+
+.item-produto-relacionado .botao-add {
+    cursor: pointer;
+}
+
+.item-produto-relacionado h4 {
+    cursor: pointer;
+    padding-top: 10px;
+
+}
+
+.adicionarPequeno {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: f2f2f2;
+    width: 20px;
+   
+}
+
+.produtos-relacionados {
+    margin-bottom: 10%;
+}
+
+
+
+#linha-feedback {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 100px;
+}
+
+.secao-feedback {
+    background-color: #f2f2f2;
+}
+
+.footer-meu {
+    background-color:rgba(255, 182, 193, 0.148);
+    padding-top: 20px;
+   
+}
+
+.numero-carrinho.ativo{
+    background-color:#076873 ;
+}
+.ativo {
+    background-color: #f2f2f2;
+    height: 25px;
+    width: 30px;
+    border-radius: 40%;
+    color: #071126;
+    padding: 5px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+
+
+    .navbar-minha{
+       display: none;
+    }
+   .nav-item.lista{
+       display: none;
+   }
+       #pesquisa,
+       #lupa,
+       .carrinho,
+       .logo,
+       .perfil {
+           display: none;
+       }
+   
+       .botao-lupa {
+           display: none;
+       }
+   
+       header {
+           background-color: rgba(255, 182, 193, 0.148);
+   
+       }
+   .menu2{
+       display: none;
+   }
+       .secao1 {
+           margin-top: 20px;
+           padding-top: 0%;
+       }
+   
+       .menu {
+           display: flex;
+       }
+       .navbar-mobile{
+           display: none;
+       }
+       .menu-mobile-container{
+           background-color: rgba(255, 182, 193, 0.148);
+           width: 200px;
+           height: 100px;
+           display: flex;
+           flex-direction: column;
+       }
+       .menuativo{
+           background-color: rgba(255, 182, 193, 0.148);
+           width: 200px;
+           height: 100px;
+           display: flex;
+           flex-direction: column;
+       }
+      .mobile-links.menuativo {
+           color: #071126;
+           padding: 10px;
+          
+           
+       }
+       .imagem-carrossel {
+           width: 300px;
+           height: 300px;
+           margin-top: 150px;
+       }
+   
+   }
+   @media only screen and (min-width: 320px) and (max-width: 767px){
+    #main-image{
+        width: 380px;
+    }
+    .single-pro-details{
+        width: 480px;
+    }
+    .small-image{
+        width: 75px;
+    }
+    .h6-yoga{
+        display: none;
+
+    }
+    .descricao-yoga{
+      margin-left: 50px;
+    }
+   }

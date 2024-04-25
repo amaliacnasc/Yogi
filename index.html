@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="shortcut icon" type="image/jpg" href="LOGO-PRETO.png" >
+    <link href=
+    "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <title>Yogi</title>
+</head>
+<header>
+    <img class="menu" src="menu.png">
+    <nav class="navbar-mobile">
+    <div class="menu-mobile-container">
+        <a href="index.html" class="text-secondary mobile-links">Início</a>
+        <a href="" class=" text-secondary mobile-links">Produtos</a>
+        <a href="#blog" class=" text-secondary mobile-links">Blog</a>
+        <a href="#faq" class=" text-secondary mobile-links">FAQ</a>
+
+    </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-minha">
+        <div class="container-fluid ">
+            <ul class="navbar-nav d-flex justify-content-center align-items-center ">
+                <li class="nav-item lista-logo"><a href="index.html"><img class="logo" src="LOGOTIPO-PRETO.png"></a></li>
+                <li class="nav-item lista"><a href="index.html">Início</a></li>
+
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item d ml-auto ">
+                        <li class="nav-item dropdown lista">
+                            <a class=" nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produtos</a>
+                            <div class="dropdown-menu bg-secondary " aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item text-black  " href="local.html">Kits</a>
+                                <a class="dropdown-item text-black" href="local.html">Tapetes</a>
+                                <a class="dropdown-item text-black" href="local.html">Acessórios</a>
+                                <a class="dropdown-item text-black" href="local.html">Roupas</a>
+                                <a class="dropdown-item text-black" href="local.html">Meditação</a>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                    <li class="nav-item lista" id="menu-faq"><a href="#blog">Blog</a></li>
+                    <li class="nav-item lista" id="menu-faq"><a href="#faq">FAQ</a></li>
+                    <div>
+                        <form class="d-flex pesquisa align-self-end justify-content-end " role="search">
+                            <input class="form-control  " id="pesquisa" type="search" placeholder="Pesquisar"
+                                aria-label="Search">
+                            <button class="botao-lupa"><img class="lupa" id="lupa" src="lupa.png"></button>
+                            <p class="numero-carrinho text-white text-bold"></p>
+                           <a href="cart.html"><img class="carrinho" src="carrinho.png"> </a> 
+                            <img class="perfil" src="perfil.png">
+                            <img class="menu" src="menu.png" alt="">
+                        </form>
+
+                    </div>
+                </div>
+    </nav>
+    <section class="menu2 container-fluid">
+        <div class="row justify-content-center  ">
+            <div class="item-menu2 col ">
+                <p class="text-center p-menu2 text-uppercase">Mais vendidos</p>
+            </div>
+            <div class="item-menu2 col ">
+                <p class="text-center  p-menu2 text-uppercase">Acessórios</p>
+            </div>
+            <div class="item-menu2 col ">
+                <p class="text-center  p-menu2 text-uppercase">Tapetes</p>
+            </div>
+            <div class="item-menu2 col ">
+                <p class="text-center  p-menu2 text-uppercase">Meditação</p>
+            </div>
+        </div>
+    </section>
+</header>
+
+<body>
+    <section class="container-fluid background-meu">
+        <div class="row text-white background-meu">
+
+            <div class="col-lg-7 p-0">
+                <div id="carouselDestinos" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselDestinos" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselDestinos" data-slide-to="1"></li>
+                        <li data-target="#carouselDestinos" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class=" imagem-carrossel d-block w-100" src="carrossel1.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class=" imagem-carrossel d-block w-100" src="carrossel2.jpg" alt="">
+
+                        </div>
+                        <div class="carousel-item">
+                            <img class=" imagem-carrossel d-block w-100" src="carrossel3.jpg" alt="">
+
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselDestinos" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselDestinos" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-5  align-self-center d-flex flex-column  justify-content-center  ">
+                <h1 class="display-5 pb-3 meu-call">Increva-se e ganhe 15% de desconto na primeira compra</h1>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="input-meu form-control  p-3 " placeholder="Digite seu email"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn botao-inscrevase" type="button" id="button-addon2">Inscreva-se</button>
+                </div>
+
+    </section>
+
+    <section class="container-fluid secao1">
+        <div class="row justify-content-center">
+            <div class="mais-vendidos col-lg-12 col-md-6 col-sm-4 secao1-minha">
+                <h1 class="h1-maisvendidos pt-4 text-center text-uppercase mb-lg-5 ">Os mais vendidos</h1>
+                <div class="row justify-content-center   " id="container-itens">
+                    <div class="item " id="produto1">
+                        <p class="numero-produto">&#11214; </p>
+                        <a href="sproduto.html"><img src="kit-yoga.jpg"></a>
+                        <p class="descricao-produto"> Kit Iniciante de yoga</p>
+                        <p class="descricao-produto">R$200,00 <img class="botao-add-verde" src="add.png">
+                        <p class="contagem"> </p>
+                        </p>
+                    </div>
+                    <div class="item "  id="produto2">
+                        <p class="numero-produto">&#11214; </p>
+                        <img src="bloco-yoga.jpg">
+                        <p class="descricao-produto"> Bloco de apoio</p>
+                        <p class="descricao-produto">R$80,00<img class="botao-add-verde" src="add.png">
+                        <p class="contagem"> </p>
+                        </p>
+                    </div>
+                    <div class="item "  id="produto3">
+                        <p class="numero-produto">&#11214; </p>
+                        <img src="bolsa.jpg">
+                        <p class="descricao-produto"> Bolsa yoga</p>
+                        <p class="descricao-produto">R$80,00 <img class="botao-add-verde" src="add.png">
+                        <p class="contagem"> </p>
+                        </p>
+                    </div>
+                    <div class="item  "  id="produto4">
+                        <p class="numero-produto">&#11214; </p>
+                        <img src="almofada-meditacao.jpg">
+                        <p class="descricao-produto">Almofada para meditação</p>
+                        <p class="descricao-produto">R$100,00 <img class="botao-add-verde" src="add.png">
+                        <p class="contagem"> </p>
+                        </p>
+                    </div>
+                    <div class="item "  id="produto5">
+                        <p class="numero-produto">&#11214; </p>
+                        <img src="cinto-yoga.jpeg">
+                        <p class="descricao-produto"> Cinto Yoga</p>
+                        <p class="descricao-produto">R$30,00 <img class="botao-add-verde" src="add.png">
+                        <p class="contagem"> </p>
+                        </p>
+                    </div>
+                    <div class="item"  id="produto6">
+                        <p class="numero-produto"> &#11214;</p>
+                        <img src="tapete.jpg">
+                        <p class="descricao-produto"> Tapete emborrachado</p>
+                        <p class="descricao-produto">R$120,00 <img class="botao-add-verde" src="add.png">
+                        <p class="contagem"> </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+   <section class="container-fluid voce-sabia" id="blog">
+    <h4  class="text-uppercase text-center titulo-voce-sabia">Você sabia?</h4>
+    <h6 class="text-uppercase text-center subtitulo-voce-sabia">Leia nossos artigos sobre saúde física e mental</h6>
+    <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-lg-3 col-md-3 col-sm-2 item-voce-sabia1 d-flex justify-content-center flex-column align-items-center">
+        <img class="imagem-voce-sabia" src="vocesabia1.jpg">
+        <h6 class="text-center text-uppercase pt-3  ">Mantendo a mente limpa</h6>
+        <p class="text-center ">Entenda a importância da meditação na prática de yoga e seus benefícios a longo prazo</p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-2 item-voce-sabia2  d-flex justify-content-center flex-column align-items-center">
+        <img class="imagem-voce-sabia" src="voce-sabia2.jpg">
+        <h6 class="text-center text-uppercase pt-3 ">Yoga ou musculação?</h6>
+        <p class="text-center ">Qual exercício físico se adequa mais a seu perfil? É possível fazer mais de uma prática física diária? Saiba mais com a coluna do Daniel Albuquerque</p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-2 item-voce-sabia3  d-flex justify-content-center flex-column align-items-center">
+        <img class="imagem-voce-sabia" src="vocesabia3.jpg">
+        <h6 class="text-center text-uppercase pt-3 ">Yoga é como correr</h6>
+        <p class="text-center ">Quais as semelhanças entre os dois esportes? saiba mais sobre como criar uma rotina de exercícios</p>
+    </div>
+    </div>
+   </section>
+    <section id="faq">
+        <div class="FAQ pt-5 ">
+
+            <dl>
+                <h1 class="faq-titulo text-center">FAQ</h1>
+                <dt class="faq-pergunta ">Quais são as opções de pagamento disponíveis na loja? &#x21E9;</dt>
+                <dd class="faq-resposta ativado">Aceitamos diversas formas de pagamento, incluindo cartões de crédito
+                    (Visa,
+                    Mastercard, etc.), cartões de débito, PayPal e, em alguns casos, pagamento à vista em dinheiro na
+                    loja
+                    física.</dd>
+                <dt class="faq-pergunta">Qual é o prazo de entrega dos produtos comprados online? &#x21E9;</dt>
+                <dd class="faq-resposta">O prazo de entrega pode variar de acordo com a localização e a disponibilidade
+                    do
+                    produto. Geralmente, os pedidos são despachados dentro de 1 a 3 dias úteis após a confirmação do
+                    pagamento. O tempo de entrega estimado será informado durante o processo de compra.</dd>
+                <dt class="faq-pergunta">Existe a opção de retirada na loja para compras online? &#x21E9;</dt>
+                <dd class="faq-resposta">Sim, oferecemos a opção de retirada na loja para compras realizadas online.
+                    Durante
+                    o processo de checkout, você pode selecionar essa opção e escolher a loja mais conveniente para
+                    retirar
+                    seus produtos. Assim que seu pedido estiver pronto, você receberá um e-mail de confirmação.</dd>
+            </dl>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap.js"></script>
+</body>
+<footer class="container-fluid footer-meu">
+    <div class="row justify-content-start d-flex flex-row  ">
+
+        <div class="col-lg-4 col-sm-2 ">
+            <h5 class="text-secondary text-capitalize">Links Relevantes</h5>
+            <a class="text-secondary" src="produto.html">Produtos</a><br>
+            <a class="text-secondary" src="#">FAQ</a><br>
+            <a class="text-secondary" src="Login">Login</a><br>
+        </div>
+        <div class="col-lg-4 col-sm-2">
+            <h5 class="text-secondary text-capitalize">Redes Sociais</h5>
+            <a class="text-secondary" src="#"><img class="redes-sociais" src="whatsapp.png">Whatsapp</a><br>
+            <a class="text-secondary" src="#"><img class="redes-sociais" src="instagram.png">@yogioficial</a><br>
+            <a class="text-secondary" src="Login"><img class="redes-sociais" src="facebook.png">Yogi Oficial</a><br>
+        </div>
+        <div class="col-lg-4 col-sm-2">
+            <h5 class="text-secondary text-capitalize">localização</h5>
+            <p class="text-secondary">Rua Gertuz augusto reinaldo santos</p>
+            <p class="text-secondary">555-666-7</p>
+            <p class="text-secondary">Nº 90 - Centro </p>
+        </div>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,406 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Poppins";
+}
+
+.lista,
+.lista-logo {
+    padding-right: 50px;
+}
+
+.lista-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 70px;
+}
+
+.carrinho,
+.lupa,
+.perfil,
+.menu {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.menu {
+    display: none;
+}
+
+.lupa:hover,
+.carrinho:hover,
+.perfil:hover,
+.menu:hover {
+    cursor: pointer;
+}
+
+.navbar-minha {
+    background-color: rgba(255, 182, 193, 0.148);
+}
+
+.item-menu2 {
+    background-color: #071126;
+}
+
+.item-menu2 p {
+    color: #f2e7dc;
+}
+
+.item-menu2 p:hover {
+    color: #071126;
+}
+
+.item-menu2:hover {
+    background-color: rgba(255, 182, 193, 0.148);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.p-menu2 {
+    margin: auto;
+    padding: 10px;
+}
+
+.navbar-mobile {
+    display: none;
+}
+
+.pesquisa {
+    margin-right: 10px;
+    margin-left: 550px;
+}
+
+p.numero-carrinho {
+    margin-left: 20px;
+}
+
+.navbar-minha li a {
+    color: #071126;
+}
+
+.mobile-links:hover {
+    color: #071126;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.imagem-carrossel {
+    width: 500px;
+    height: 500px;
+}
+
+.background-meu {
+    background-color: rgba(255, 182, 193, 0.148);
+}
+
+.meu-call {
+    color: #071126;
+}
+
+.botao-inscrevase {
+    background-color: #071126;
+    border: 1px solid #071126;
+    border-radius: 8px;
+    color: #f2e7dc;
+    cursor: pointer;
+}
+
+.botao-inscrevase:hover {
+    background-color: #f2f2f2;
+    color: #071126;
+}
+
+.item {
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#container-itens {
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #f2f2f2;
+}
+
+img {
+    width: 100%;
+}
+
+.item img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f2f2f2;
+    border-radius: 8px;
+}
+
+.imagem-newsletter {
+    width: 400px;
+    height: 400px;
+}
+
+.secao1-minha {
+    margin-top: 10%;
+}
+
+.secao1-minha p {
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+.secao1-minha img:hover,
+.secao1-minha .descricao-produto:hover {
+    cursor: pointer;
+}
+
+.secao1-minha .descricao-produto:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+img.botao-add-verde {
+    height: 24px;
+    width: 24px;
+    margin-left: 50%;
+}
+
+.item p {
+    font-size: 20px;
+}
+
+.titulo-voce-sabia {
+    font-size: 2.5rem;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.subtitulo-voce-sabia {
+    font-size: 1.5rem;
+    padding-bottom: 5%;
+}
+
+.item-voce-sabia1,
+.item-voce-sabia2,
+.item-voce-sabia3,
+.imagem-voce-sabia {
+    width: 200px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.item-voce-sabia1 {
+    background-color: rgba(255, 182, 193, 0.148);
+    cursor: pointer;
+}
+
+.item-voce-sabia2 {
+    background-color: #08817919;
+    cursor: pointer;
+}
+
+.item-voce-sabia3 {
+    background-color: #e3ffe6;
+    cursor: pointer;
+}
+
+.item-voce-sabia1:hover,
+.item-voce-sabia2:hover,
+.item-voce-sabia3:hover {
+    transition: 0.4s;
+    background-color: #e0bbe4;
+}
+
+.FAQ,
+.faq-titulo {
+    margin-bottom: 5%;
+}
+
+.faq-pergunta {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.faq-resposta {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-meu {
+    margin-top: 10%;
+    background-color: rgba(255, 182, 193, 0.148);
+}
+
+.footer-meu h5 {
+    margin-top: 20px;
+}
+
+.footer-meu h5:hover {
+    cursor: pointer;
+}
+
+.redes-sociais {
+    height: 16px;
+    width: 16px;
+}
+
+.faq-pergunta:hover {
+    cursor: pointer;
+}
+
+.faq-resposta {
+    display: none;
+}
+
+.faq-resposta.ativado {
+    display: block;
+    transition: 0.6s;
+}
+
+.numero-produto {
+    background-color: #f2f2f2;
+}
+
+p .numero-produto .ativo {
+    text-decoration: underline;
+    margin-left: 10px;
+    color: #f2f2f2;
+    padding: 5px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+.numero-carrinho.ativo {
+    background-color: #076873;
+    height: 25px;
+    width: 30px;
+    border-radius: 40%;
+    color: #071126;
+    padding: 5px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .navbar-minha {
+        display: none;
+    }
+
+    .nav-item.lista {
+        display: none;
+    }
+
+    #pesquisa,
+    #lupa,
+    .logo,
+    .perfil {
+        display: none;
+    }
+
+    .botao-lupa {
+        display: none;
+    }
+
+    header {
+        background-color: rgba(255, 182, 193, 0.148);
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .navbar-mobile {
+        display: none;
+    }
+
+    .menu2 {
+        display: none;
+    }
+
+    .menu-mobile-container {
+        background-color: rgba(255, 182, 193, 0.148);
+        width: 200px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menuativo {
+        background-color: rgba(255, 182, 193, 0.148);
+        width: 200px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-links.menuativo {
+        color: #071126;
+        padding: 10px;
+    }
+
+    .imagem-carrossel {
+        width: 300px;
+        height: 300px;
+    }
+
+    .background-meu {
+        margin-top: 50px;
+    }
+
+    .item {
+        width: 300px;
+    }
+
+    .titulo-voce-sabia,
+    .meu-call,
+    .h1-maisvendidos,
+    .faq-titulo {
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+
+    p.descricao-produto {
+        font-size: 14px;
+    }
+
+    .descricao-produto,
+    .faq-resposta,
+    .faq-pergunta {
+        font-size: 14px;
+    }
+
+    .input-meu {
+        width: 200px;
+        height: 25px;
+    }
+
+    .h1-maisvendidos {
+        margin-bottom: 15px;
+    }
+
+    .botao-inscrevase {
+        height: 33.6px;
+    }
+
+    .subtitulo-voce-sabia {
+        font-size: 0.8rem;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .footer-meu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+

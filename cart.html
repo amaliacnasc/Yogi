@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Resumo do Carrinho</title>
+<link rel="stylesheet" href="cart.css">
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="shortcut icon" type="image/jpg" href="LOGO-PRETO.png" >
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-minha">
+        <div class="container-fluid ">
+            <ul class="navbar-nav d-flex justify-content-center align-items-center ">
+                <li class="nav-item lista-logo"><a href="#"><img class="logo" src="LOGOTIPO-PRETO.png"></a></li>
+                <li class="nav-item lista"><a href="index.html">Início</a></li>
+
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item d ml-auto ">
+                        <li class="nav-item dropdown lista">
+                            <a class=" nav-link dropdown-toggle" href="paginadeprodutos.html" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produtos</a>
+                            <div class="dropdown-menu bg-secondary " aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item text-black  " href="local.html">Kits</a>
+                                <a class="dropdown-item text-black" href="local.html">Tapetes</a>
+                                <a class="dropdown-item text-black" href="local.html">Acessórios</a>
+                                <a class="dropdown-item text-black" href="local.html">Roupas</a>
+                                <a class="dropdown-item text-black" href="local.html">Meditação</a>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                    <li class="nav-item lista" id="menu-faq"><a href="#">FAQ</a></li>
+                    <div>
+                        <form class="d-flex pesquisa align-self-end justify-content-end " role="search">
+                            <input class="form-control  " id="pesquisa" type="search" placeholder="Pesquisar"
+                                aria-label="Search">
+                            <button class="botao-lupa"><img class="lupa" id="lupa" src="lupa.png"></button>
+                            <p class="numero-carrinho"></p>
+                            <a href="cart.html"><img class="carrinho" src="carrinho.png"> </a> 
+                            <img class="perfil" src="perfil(1).png">
+                            <img class="menu" src="menu.png" alt="">
+                        </form>
+
+                    </div>
+                </div>
+    </nav>
+    <section class="menu2 container-fluid">
+        <div class="row justify-content-center  ">
+            <div class="item-menu2 col ">
+                <p class="text-center p-menu2 text-uppercase">Mais vendidos</p>
+                <a href="paginadeprodutos.html"></a>
+                
+            </div>
+            <div class="item-menu2 col ">
+                <p class="text-center  p-menu2 text-uppercase">Acessórios</p>
+            </div>
+            <div class="item-menu2 col ">
+                <p class="text-center  p-menu2 text-uppercase">Tapetes</p>
+            </div>
+            <div class="item-menu2 col ">
+                <p class="text-center  p-menu2 text-uppercase">Meditação</p>
+            </div>
+        </div>
+    </section>
+</header>
+<body>
+    
+<section>
+
+<div class="carrinho-container">
+    <h2>Resumo do carrinho</h2>
+  <div class="item">
+    <div class="imagem-produto"> </div>
+    <div class="detalhes-produto">
+      <span class="label">Nome do produto:</span>
+      <span class="nome-prod">Kit de Yoga Inicial</span>
+      <span class="label">Quantidade:</span>
+      <input type="number" value="1" min="1" class="quantidade" data-preco="100">
+      <span class="label">Valor:</span>
+      <span class="preco">R$100</span>
+    </div>
+  </div>
+  <div class="total-container">
+    <span>Total:</span>
+    <span id="total">R$100</span>
+    <button class="botao-finalizar" onclick="finalizarCompra()">Finalizar Compra</button>
+  </div>
+</div>
+</section>
+<footer class="container-fluid footer-meu">
+    <div class="row justify-content-start">
+
+        <div class="col-3">
+            <h5 class="text-secondary text-capitalize">Links Relevantes</h5>
+            <a class="text-secondary " src="produto.html">Produtos</a><br>
+            <a class="text-secondary " src="#">FAQ</a><br>
+            <a class="text-secondary " src="Login">Login</a><br>
+        </div>
+        <div class="col-3">
+            <h5 class="text-secondary text-capitalize">Redes Sociais</h5>
+            <a class="text-secondary " src="#"><img class="redes-sociais" src="whatsapp.png">Whatsapp</a><br>
+            <a class="text-secondary " src="#"><img class="redes-sociais" src="instagram.png">@yogioficial</a><br>
+            <a class="text-secondary " src="Login"><img class="redes-sociais" src="facebook.png">Yogi Oficial</a><br>
+        </div>
+        <div class="col-3">
+            <h5 class="text-secondary text-capitalize">localização</h5>
+            <p class="text-secondary ">Rua Gertuz augusto reinaldo santos</p>
+            <p class="text-secondary ">555-666-7</p>
+            <p class="text-secondary ">Nº 90 - Centro </p>
+        </div>
+    </div>
+</footer>
+
+
+<script src="cart.js">
+
+</script>
+
+</body>
+</html>
+
